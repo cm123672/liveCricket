@@ -27,6 +27,10 @@ allowtransparency="true" allow="autoplay, fullscreen" allowautoplay="yes" id="th
 // }
 //     goFullscreen(document.querySelector('#thatframe'))
    
-    document.querySelector('#floatingLayer247').style.display = 'none'
+    window.addEventListener('DOMContentLoaded', (event) => {
+    document.querySelector('#floatingLayer247').style.display = 'none';
+      console.log('loaded')
+});
+    
   </script>
 </html>
