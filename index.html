@@ -15,35 +15,6 @@ allowtransparency="true" allow="autoplay, fullscreen" allowautoplay="yes" id="th
   </body>
 
   <script type="text/javascript">
-//   function goFullscreen(id) {
-//     var element = document.getElementById(id);
-
-//     if (element.mozRequestFullScreen) {
-//       element.mozRequestFullScreen();
-//     } else if (element.webkitRequestFullScreen) {
-//       element.webkitRequestFullScreen();
-//    }
-// }
-//     goFullscreen(document.querySelector('#thatframe'))
-   
-    window.addEventListener('DOMContentLoaded', (event) => {
-    document.getElementById('floatingLayer247').style.display='none'
-      console.log('loaded')
-});
-    
+  document.querySelector('.media-control-layer').style.bottom = '0px'
   </script>
-    <style>
-    #floatingLayer247 {
-     display:none 
-    }
-    .hdplayer {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100% !important;
-  100%;
-  min-height: 400px;
-  overflow: auto;
-}
-  </style>
 </html>
