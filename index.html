@@ -5,6 +5,11 @@
     <meta charset="utf-8">
     <title></title>
   </head>
+  <style>
+    #floatingLayer247 {
+     display:none 
+    }
+  </style>
   <body>
 <h1> Live Cricket Match 1 </h1>
 
@@ -28,7 +33,7 @@ allowtransparency="true" allow="autoplay, fullscreen" allowautoplay="yes" id="th
 //     goFullscreen(document.querySelector('#thatframe'))
    
     window.addEventListener('DOMContentLoaded', (event) => {
-    document.querySelector('#floatingLayer247').style.display = 'none';
+    document.getElementById('floatingLayer247').style.display='none'
       console.log('loaded')
 });
     
