@@ -16,15 +16,17 @@ allowtransparency="true" allow="autoplay, fullscreen" allowautoplay="yes" id="th
   </body>
 
   <script type="text/javascript">
-  function goFullscreen(id) {
-    var element = document.getElementById(id);
+//   function goFullscreen(id) {
+//     var element = document.getElementById(id);
 
-    if (element.mozRequestFullScreen) {
-      element.mozRequestFullScreen();
-    } else if (element.webkitRequestFullScreen) {
-      element.webkitRequestFullScreen();
-   }
-}
-    goFullscreen(document.querySelector('#thatframe'))
+//     if (element.mozRequestFullScreen) {
+//       element.mozRequestFullScreen();
+//     } else if (element.webkitRequestFullScreen) {
+//       element.webkitRequestFullScreen();
+//    }
+// }
+//     goFullscreen(document.querySelector('#thatframe'))
+    
+    document.querySelector('#floatingLayer247').style.display = 'none'
   </script>
 </html>
